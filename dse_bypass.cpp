@@ -783,9 +783,3 @@ int main() {
     return 0;
 }
 
-// Placeholder for driver binary data
-// In production, you would embed the actual gdrv.sys binary here
-extern "C" {
-    const unsigned char driver_data[] = { 0x4D, 0x5A }; // MZ header placeholder
-    const unsigned int driver_data_size = sizeof(driver_data);
-}
