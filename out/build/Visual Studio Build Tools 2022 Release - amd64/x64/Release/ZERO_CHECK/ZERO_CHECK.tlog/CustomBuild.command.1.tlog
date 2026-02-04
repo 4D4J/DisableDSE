@@ -1,0 +1,10 @@
+^C:\USERS\CAPIT\ONEDRIVE\DOCUMENTS\CODE\DSE_BYPASS\OUT\BUILD\VISUAL STUDIO BUILD TOOLS 2022 RELEASE - AMD64\CMAKEFILES\386F93D068BF09336243875502D06874\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/capit/OneDrive/Documents/code/DSE_bypass "-BC:/Users/capit/OneDrive/Documents/code/DSE_bypass/out/build/Visual Studio Build Tools 2022 Release - amd64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/capit/OneDrive/Documents/code/DSE_bypass/out/build/Visual Studio Build Tools 2022 Release - amd64/DSE_bypass.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

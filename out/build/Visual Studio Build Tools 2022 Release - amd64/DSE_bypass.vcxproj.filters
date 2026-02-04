@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\capit\OneDrive\Documents\code\DSE_bypass\dse_bypass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\capit\OneDrive\Documents\code\DSE_bypass\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{983D69BD-FE22-38B1-A521-CEBCE3F18AFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
